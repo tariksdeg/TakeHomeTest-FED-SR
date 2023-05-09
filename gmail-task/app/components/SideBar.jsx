@@ -5,11 +5,11 @@ import MarkunreadIcon from "@mui/icons-material/Markunread";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 const SideBar = () => {
   return (
-    <div className="flex flex-col justify-center items-center p-5">
+    <div className="flex flex-col justify-center items-center px-5 py-8">
       <div className="w-full flex items-center justify-center">
         <MenuIcon />
       </div>
-      <div className="flex flex-col items-center justify-center pt-5">
+      <div className="flex flex-col items-center justify-center pt-8">
         <div>
           <MarkunreadIcon />
         </div>

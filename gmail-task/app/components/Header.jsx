@@ -12,14 +12,14 @@ const Header = () => {
     setMobileOpen(!mobileOpen);
   };
   return (
-    <div className="flex flex-row justify-between  h-full py-5 justify-center items-center">
+    <div className="flex flex-row justify-between  h-full py-5 justify-center items-center ">
       <div className="flex">
         <div>
           <Image width={30} height={30} alt="Logo" src="/logo.png" />
         </div>
         <div className="ml-2 text-lg font-semibold text-gray-600">Gmail</div>
       </div>
-      <div className="w-1/2 py-3 px-5 bg-gray-300 rounded-lg focus-within:bg-white">
+      <div className="w-1/2 py-3 px-5 bg-gray-300 rounded-lg focus-within:bg-white relative">
         <Input />
       </div>
       <div>

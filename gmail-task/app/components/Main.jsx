@@ -20,15 +20,24 @@ const Main = () => {
             <TabList
               onChange={handleChange}
               aria-label="lab API tabs example"
-              className="flex justfiy-between"
+              className="flex justify-between mx-5"
             >
-              <Tab label="Primary" value="1" />
-              <Tab label="Promotions" value="2" />
-              <Tab label="Social" value="3" />
+              <Tab className="font-bold text-xs" label="Primary" value="1" />
+              <Tab
+                className="mx-10 font-bold text-xs"
+                label="Promotions"
+                value="2"
+              />
+              <Tab
+                className="mx-10 font-bold font-bold text-xs"
+                label="Social"
+                value="3"
+              />
             </TabList>
           </Box>
+          <div className="w-full  bg-gray-500 h-[1px] mb-[1px]"></div>
           <TabPanel
-            className="border border-gray-500 h-screen"
+            className="border border-gray-500 h-screen "
             value="1"
           ></TabPanel>
           <TabPanel
