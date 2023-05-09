@@ -9,13 +9,13 @@ const Input = () => {
       ? " hidden "
       : "absolute bg-white w-full h-auto border border-gray-300 rounded-lg top-12 right-0 z-[2] group ";
   return (
-    <div className="flex justify-between   ">
+    <div className="flex justify-between  group ">
       <div>
         <SearchIcon />
       </div>
       <div className="w-full ">
         <input
-          className="bg-gray-300 text-black focus:bg-white focus:outline-none mx-5"
+          className="bg-gray-300 text-black focus:bg-white focus:outline-none mx-5 group-focus-within:bg-white"
           placeholder="Search in mail"
         />
       </div>
