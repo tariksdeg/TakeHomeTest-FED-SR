@@ -23,15 +23,15 @@ const Header = () => {
         <Input />
       </div>
       <div>
-        <div>
+        <div className="cursor-pointer">
           <SettingsIcon onClick={handleDrawerToggle} />
           <div></div>
         </div>
       </div>
-      <div>
+      <div className="cursor-pointer">
         <AppsIcon />
       </div>
-      <div>
+      <div className="cursor-pointer">
         <AccountCircleIcon />
       </div>
       <Drawer
